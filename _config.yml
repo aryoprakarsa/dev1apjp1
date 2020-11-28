@@ -6,16 +6,16 @@ title                    : "Because Developers are Awesome"
 title_separator          : "-"
 name                     : &name "Adrian Hall"
 description              : &description "Musings about cloud and mobile development."
-url                      : &url "https://adrianhall.github.io"
+url                      : &url "https://aryoprakarsa.github.io"
 baseurl                  : ""
-repository               : "adrianhall/adrianhall.github.io"
+repository               : "dev1apjp1/aryoprakarsa.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true
 words_per_minute         : 200
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : "adrianhall-github-io"
+    shortname            : "aryoprakarsa-github-io"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
