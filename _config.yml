@@ -15,7 +15,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : "aryoprakarsa-github-io"
+    shortname            : "aryoprakarsa-github-io-dev1apjp1"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
@@ -43,7 +43,7 @@ twitter:
 analytics:
   provider               : "google-gtag"
   google:
-    tracking_id          : "UA-93366112-4"
+    tracking_id          : ""
 
 
 # Site Author
