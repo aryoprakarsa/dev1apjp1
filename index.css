@@ -1,0 +1,153 @@
+@use "@material/button";
+
+@include button.core-styles;
+	
+@use "@material/slider";
+
+@include slider.core-styles;
+@use "@material/card";
+
+@include card.core-styles;
+
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  margin:0;
+  padding:0;
+}
+@font-face{
+	font-family: LemonMilk;
+	src :url("./assets/LEMONMILK-Regular.otf");
+}
+@font-face{
+	font-family: cafe;
+	src:url("./assets/Louis George Cafe Bold.ttf");
+}
+
+.mdc-card {
+  height: 10vw;
+  width: 10vw;
+  background-color:#6200ee;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+}
+.card-padding{
+	padding-top:25%;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1vw;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+.app-bar {
+  position: absolute;
+}
+
+.text-title{
+	font-size: 15px;
+	padding:2% 0;
+	color :white;
+	font-family: cafe;
+}
+.mdc-list-item:hover{
+	opacity: 0.6;
+}
+.logo {
+	padding-right: 7%;
+}
+
+.center-screen{
+	position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color:white;
+}
+
+.buttontext{
+	font-size:0.8vw;
+	font-family: LemonMilk;
+	font-weight:bold;
+}
+
+.col {
+	width: 50%;
+	float:left;
+}
+
+.col-timeline-1 {
+	width: 15%;
+	float:left;
+}
+.col-timeline-2{
+	width: 85%;
+	float: left;
+}
+h1{
+	font-weight: bold;
+	font-family: LemonMilk;
+	font-size:2.5vw;
+}
+
+.col3{
+	width: 33%;
+	float:left;
+	padding:2%;
+}
+.mobile-only{
+	display: none;
+}
+
+a img:hover {
+	opacity: 0.8;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+	.bodybottom{
+		padding-bottom: 10%;
+	}
+	 .blockcustom {
+		display: none;
+	}
+	.card-padding{
+		padding-top:15%;
+	}
+	.web-only{
+		display: none;
+	}
+	.mobile-only{
+		display: block;
+	}
+	.paddingmobile{
+		padding:25%;
+	}
+	.center-screen{
+
+	}
+	
+}
+h2{
+	color:white;
+}
